@@ -1,0 +1,94 @@
+* * {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  margin: 0;
+}
+
+.userCard {
+  /*width: 600px;*/
+  min-width: 200px;
+  max-width: 400px;
+  width: 400%;
+  height: 600px;
+  background-color: white;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.userImageContainer {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.userImageContainer > img {
+  object-fit: cover;
+  width: inherit;
+  height: inherit;
+  border-radius: 100%;
+}
+
+.userInfoContainer {
+  padding: 30px;
+  height: 150px;
+}
+.userFullName {
+  font-size: 25px;
+}
+.userInfo {
+  font-size: 25px;
+  color: black;
+}
+.userInfo2 {
+  font-size: 20px;
+}
+
+.userStatistics {
+  display: inline-block;
+  background-color: rgb(4, 111, 252);
+  border: 5px solid yellow;
+  padding: 5px;
+  border-radius: 50px;
+  color: white;
+}
+
+.userCard > * {
+  display: inline-block;
+  vertical-align: top;
+}
+#background {
+  background-image: url(https://prm.ua/wp-content/uploads/2020/09/Futbol-1.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  height: 600px;
+}
+
+#banner {
+  height: 970px;
+  background-image: url(https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/experience_nissan/partnerships/ucl-cover.jpg.ximg.l_full_m.smart.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  text-align: center;
+}
+#banner > p {
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+}
+#banner > hl {
+  color: white;
+  font-size: 50px;
+  font-family: monospace;
+}
+#banner > a {
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+}
